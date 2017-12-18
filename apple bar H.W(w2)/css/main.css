@@ -1,0 +1,39 @@
+
+/*we make the list.... to delet the dot next to the li thin we no padding and margin to let them all of them go 
+to the left side so after that we can but them next to each other*/
+ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	color: white;
+}
+/*we use float to put them next to each other and the width to see how many of the area we 
+want them to take */
+ul li {
+		
+		float: left;
+		width:133px;
+		background-color: #464444;
+		background-size: cover;
+}
+/* then we spicify the a element so we can work on the word */
+ul li a{
+	color: white;
+	padding: 80px;
+	font-size: 20px;
+	font-style: arial;
+}
+/* the hover to make when i put the mouse chang the color or make somthing*/
+ul li a:hover{
+
+color: #cac0c0;
+}
+/* then i finished from the nav bar statr with the other element
+do the job line by line */
+
+div.bob{
+	text-align: center;
+	padding: 80px;
+	font-size: 20px;
+
+}
